@@ -42,13 +42,13 @@ else
   "
   " Ruby / Rails
   "
-  Plugin 'tpope/vim-rails'
-  Plugin 'tpope/vim-endwise'
-  Plugin 'ecomba/vim-ruby-refactoring'
-  Plugin 'nelstrom/vim-textobj-rubyblock'
-  Plugin 'jgdavey/vim-blockle'
-  Plugin 'tpope/vim-rbenv'
-  Plugin 'tpope/vim-rake'
+  " Plugin 'tpope/vim-rails'
+  " Plugin 'tpope/vim-endwise'
+  " Plugin 'ecomba/vim-ruby-refactoring'
+  " Plugin 'nelstrom/vim-textobj-rubyblock'
+  " Plugin 'jgdavey/vim-blockle'
+  " Plugin 'tpope/vim-rbenv'
+  " Plugin 'tpope/vim-rake'
 
   "
   " General Editing
@@ -110,28 +110,28 @@ else
   "
   " Languages
   "
-  Plugin 'vim-ruby/vim-ruby'
-  Plugin 'pangloss/vim-javascript'
+  " Plugin 'vim-ruby/vim-ruby'
+  " Plugin 'pangloss/vim-javascript'
   Plugin 'plasticboy/vim-markdown'
-  Plugin 'slim-template/vim-slim'
-  Plugin 'nono/vim-handlebars'
-  Plugin 'kchmck/vim-coffee-script'
+  " Plugin 'slim-template/vim-slim'
+  " Plugin 'nono/vim-handlebars'
+  " Plugin 'kchmck/vim-coffee-script'
   Plugin 'tpope/vim-haml'
-  Plugin 'tpope/vim-cucumber'
-  Plugin 'quentindecock/vim-cucumber-align-pipes'
-  Plugin 'juvenn/mustache.vim'
+  " Plugin 'tpope/vim-cucumber'
+  " Plugin 'quentindecock/vim-cucumber-align-pipes'
+  " Plugin 'juvenn/mustache.vim'
   Plugin 'fatih/vim-go'
-  Plugin 'rosstimson/scala-vim-support'
-  Plugin 'guns/vim-clojure-static'
+  " Plugin 'rosstimson/scala-vim-support'
+  " Plugin 'guns/vim-clojure-static'
   Plugin 'chrisbra/csv.vim'
   Plugin 'elzr/vim-json'
-  Plugin 'briancollins/vim-jst'
-  Plugin 'digitaltoad/vim-jade'
-  Plugin 'mxw/vim-jsx'
-  Plugin 'lambdatoast/elm.vim'
-  Plugin 'leafgarland/typescript-vim'
-  Plugin 'digitaltoad/vim-pug'
-  Plugin 'elixir-lang/vim-elixir'
+  " Plugin 'briancollins/vim-jst'
+  " Plugin 'digitaltoad/vim-jade'
+  " Plugin 'mxw/vim-jsx'
+  " Plugin 'lambdatoast/elm.vim'
+  " Plugin 'leafgarland/typescript-vim'
+  " Plugin 'digitaltoad/vim-pug'
+  " Plugin 'elixir-lang/vim-elixir'
 
   "
   " Development Tool Integration
@@ -139,11 +139,14 @@ else
   Plugin 'tpope/vim-fugitive'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'pivotal/tmux-config'
-  Plugin 'tpope/vim-dispatch'
-  Plugin 'carlobaldassi/ConqueTerm'
-  Plugin 'sjl/vitality.vim'
-  Plugin 'brysgo/test_server'
-  Plugin 'mdelillo/vim-simple-bdd'
+  " Plugin 'tpope/vim-dispatch'
+  " Plugin 'carlobaldassi/ConqueTerm'
+  " Plugin 'sjl/vitality.vim'
+  " Plugin 'brysgo/test_server'
+  " Plugin 'mdelillo/vim-simple-bdd'
+
+  " Plugin 'Valloric/YouCompleteMe'
+  " Plugin 'rdnetto/YCM-Generator'
 
   call vundle#end()
 
