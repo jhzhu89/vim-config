@@ -148,6 +148,12 @@ else
   " Plugin 'Valloric/YouCompleteMe'
   " Plugin 'rdnetto/YCM-Generator'
 
+  "
+  " Rust
+  "
+  Plugin 'rust-lang/rust.vim'
+  Plugin 'racer-rust/vim-racer'
+
   call vundle#end()
 
   filetype plugin indent on
