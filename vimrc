@@ -66,7 +66,7 @@ else
   Plugin 'scrooloose/syntastic'
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
-  Plugin 'ervandew/supertab'
+  " Plugin 'ervandew/supertab'
   Plugin 'nertzy/j-split'
   Plugin 'matt-royal/diffthese'
   Plugin 'camelcasemotion'
@@ -145,14 +145,14 @@ else
   " Plugin 'brysgo/test_server'
   " Plugin 'mdelillo/vim-simple-bdd'
 
-  " Plugin 'Valloric/YouCompleteMe'
-  " Plugin 'rdnetto/YCM-Generator'
-
   "
   " Rust
   "
   Plugin 'rust-lang/rust.vim'
   Plugin 'racer-rust/vim-racer'
+
+  Plugin 'Valloric/YouCompleteMe'
+  " Plugin 'rdnetto/YCM-Generator'
 
   call vundle#end()
 
