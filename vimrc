@@ -154,6 +154,11 @@ else
   Plugin 'Valloric/YouCompleteMe'
   " Plugin 'rdnetto/YCM-Generator'
 
+  "
+  " TOML
+  "
+  Plugin 'cespare/vim-toml'
+
   call vundle#end()
 
   filetype plugin indent on
