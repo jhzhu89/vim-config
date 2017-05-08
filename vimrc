@@ -152,7 +152,7 @@ else
   Plugin 'racer-rust/vim-racer'
 
   Plugin 'Valloric/YouCompleteMe'
-  " Plugin 'rdnetto/YCM-Generator'
+  Plugin 'rdnetto/YCM-Generator'
 
   "
   " TOML
