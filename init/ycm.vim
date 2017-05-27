@@ -1,9 +1,10 @@
 let g:ycm_rust_src_path = '/usr/local/rust/rust-1.16.0/src'
 let g:ycm_confirm_extra_conf= 0
-let g:ycm_server_keep_logfiles = 1 
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
 au FileType c,cpp nmap <leader>jd :YcmCompleter GoToDefinition<CR>
-au FileType c,cpp nmap <leader>jD :YcmCompleter GoToDefinition<CR>
+au FileType c,cpp nmap <leader>jD :YcmCompleter GoToDeclaration<CR>
 au FileType c,cpp nmap <leader>ji :YcmCompleter GoToInclude<CR>
 au FileType c,cpp nmap <leader>gt :YcmCompleter GetType<CR>
 au FileType c,cpp nmap <leader>gp :YcmCompleter GetParent<CR>
