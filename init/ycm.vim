@@ -1,6 +1,4 @@
-let g:ycm_rust_src_path = '/usr/local/rust/rust-1.16.0/src'
-let g:ycm_confirm_extra_conf= 0
-let g:ycm_server_keep_logfiles = 1 
+let g:ycm_confirm_extra_conf = 0
 
 au FileType c,cpp nmap <leader>jd :YcmCompleter GoToDefinition<CR>
 au FileType c,cpp nmap <leader>jD :YcmCompleter GoToDefinition<CR>
